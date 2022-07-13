@@ -67,6 +67,11 @@ function App() {
                 <Route path="/customers" element={<Customers />} />
 
                 {/* Charts */}
+
+                {/* Apps */}
+                <Route path="/calendar" element={<Calendar />} />
+                <Route path="/editor" element={<Editor />} />
+                <Route path="/color-picker" element={<ColorPicker />} />
               </Routes>
             </div>
           </div>
