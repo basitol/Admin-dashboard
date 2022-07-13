@@ -2,13 +2,10 @@
 
 .sidebar {
   box-shadow: rgb(113 122 131 / 11%) 0px 7px 30px 0px;
-
   transition: all ease-in-out 0.3s;
-}
 
-/* .sidebar {
-  box-shadow: 0 7px 30px 0hsla (210, 7%, 48%, 0.11);
-} */
+  z-index: 1000;
+}
 
 .nav-item,
 .navbar {
